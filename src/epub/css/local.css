@@ -37,6 +37,16 @@ footer{
 	margin-top: 1em;
 }
 
+td{
+	vertical-align: top;
+	padding: .5em;
+}
+
+td[epub|type~="z3998:persona"]{
+	text-align: right;
+	white-space: nowrap;
+}
+
 [epub|type~="z3998:poem"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: left;
@@ -53,6 +63,10 @@ footer{
 [epub|type~="z3998:poem"] p > span + br,
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
+}
+
+[epub|type~="z3998:persona"]{
+	font-variant: all-small-caps;
 }
 
 .signature{
