@@ -48,12 +48,14 @@ td[epub|type~="z3998:persona"]{
 }
 
 [epub|type~="z3998:poem"] p,
+[epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: left;
 	text-indent: 0;
 }
 
 [epub|type~="z3998:poem"] p > span,
+[epub|type~="z3998:song"] p > span,
 [epub|type~="z3998:verse"] p > span{
 	display: block;
 	text-indent: -1em;
@@ -61,6 +63,7 @@ td[epub|type~="z3998:persona"]{
 }
 
 [epub|type~="z3998:poem"] p > span + br,
+[epub|type~="z3998:song"] p > span + br,
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
