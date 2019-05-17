@@ -15,7 +15,7 @@
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
 		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Ivanhoe</dc:title>
 		<meta property="file-as" refines="#title">Ivanhoe</meta>
 		<meta property="title-type" refines="#title">main</meta>
@@ -34,26 +34,33 @@
 		<dc:subject id="subject-7">Ivanhoe, Wilfred of, Sir (Fictitious character) -- Fiction</dc:subject>
 		<dc:subject id="subject-8">Anglo-Saxons -- Fiction</dc:subject>
 		<dc:subject id="subject-9">Normans -- Great Britain -- Fiction</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/82</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/82</meta>
-		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/82</meta>
-		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/82</meta>
-		<meta property="meta-auth" refines="#subject-5">https://www.gutenberg.org/ebooks/82</meta>
-		<meta property="meta-auth" refines="#subject-6">https://www.gutenberg.org/ebooks/82</meta>
-		<meta property="meta-auth" refines="#subject-7">https://www.gutenberg.org/ebooks/82</meta>
-		<meta property="meta-auth" refines="#subject-8">https://www.gutenberg.org/ebooks/82</meta>
-		<meta property="meta-auth" refines="#subject-9">https://www.gutenberg.org/ebooks/82</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh85061165</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh2008106309</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">Unknown</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2008112615</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
+		<meta property="term" refines="#subject-5">sh2007100266</meta>
+		<meta property="authority" refines="#subject-6">LCSH</meta>
+		<meta property="term" refines="#subject-6">sh2008106072</meta>
+		<meta property="authority" refines="#subject-7">LCSH</meta>
+		<meta property="term" refines="#subject-7">Unknown</meta>
+		<meta property="authority" refines="#subject-8">LCSH</meta>
+		<meta property="term" refines="#subject-8">sh2007101118</meta>
+		<meta property="authority" refines="#subject-9">LCSH</meta>
+		<meta property="term" refines="#subject-9">Unknown</meta>
 		<meta property="se:subject">Adventure</meta>
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">A disinherited knight returns from the Crusades and fights back against Prince John’s reign.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Set in 12th-century England, Prince John rules while his brother King Richard is away during the Crusades. During his reign, Prince John and others of Norman nobility abuse their power over the Saxons, forcing Saxons off their lands and many Saxon nobles into serfdom.&lt;/p&gt;
 			&lt;p&gt;Ivanhoe, a man disowned by his own Saxon father for going to war alongside the Norman King Richard, returns from the Crusades in disguise and appears in a tournament at Ashby. After revealing himself, Prince John and his advisors learn that King Richard, too, has returned from the crusades.&lt;/p&gt;
 			&lt;p&gt;Foiling Prince John’s plot against King Richard’s return to power, King Richard battles against Prince John’s allies, and executes the most guilty of his conspirators. After the events of the story, Ivanhoe leads a heroic career under King Richard until the king’s untimely death.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;Ivanhoe&lt;/i&gt; is the first novel to feature the character Robin Hood, his merry men, and Friar Tuck, and serves as the basis for the portrayals of his character we still see in many modern adaptations.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/82</dc:source>
 		<dc:source>https://books.google.com/books?id=ziUCAAAAQAAJ</dc:source>
