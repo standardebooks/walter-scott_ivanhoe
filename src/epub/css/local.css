@@ -1,5 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
 
 section[epub|type~="dedication"] header{
 	font-variant: small-caps;
@@ -29,6 +30,10 @@ p span.i2{
 footer{
 	text-align: right;
 	margin-top: 1em;
+}
+
+body [xml|lang]{
+	font-style: italic;
 }
 
 [epub|type~="z3998:song"] header p{
