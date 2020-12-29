@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-35.xhtml">
+		<ignore>
+			<code>c-017</code>
+			<reason>Postscript is part of prose and does not require special styling.</reason>
+		</ignore>
+		<ignore>
+			<code>c-018</code>
+			<reason>Postscript is part of prose and does not require special styling.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
