@@ -26,6 +26,14 @@ footer{
 	margin-top: 1em;
 }
 
+p[epub|type~="z3998:signature"]{
+	text-align: right;
+}
+
+p[epub|type~="z3998:postscript"] + p{
+	margin-top: 1em;
+}
+
 body [xml|lang]{
 	font-style: italic;
 }
