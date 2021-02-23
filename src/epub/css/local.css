@@ -12,13 +12,13 @@ section[epub|type~="dedication"] header + p + p{
 }
 
 p span.i1{
-	text-indent: -1em;
 	padding-left: 2em;
+	text-indent: -1em;
 }
 
 p span.i2{
-	text-indent: -1em;
 	padding-left: 3em;
+	text-indent: -1em;
 }
 
 footer{
@@ -55,8 +55,8 @@ body [xml|lang]{
 [epub|type~="z3998:song"] p > span,
 [epub|type~="z3998:verse"] p > span{
 	display: block;
-	text-indent: -1em;
 	padding-left: 1em;
+	text-indent: -1em;
 }
 
 [epub|type~="z3998:poem"] p > span + br,
