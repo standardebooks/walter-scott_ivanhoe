@@ -22,8 +22,8 @@ p span.i2{
 }
 
 footer{
-	text-align: right;
 	margin-top: 1em;
+	text-align: right;
 }
 
 p[epub|type~="z3998:signature"]{
@@ -40,8 +40,8 @@ body [xml|lang]{
 
 [epub|type~="z3998:song"] header p{
 	font-variant: small-caps;
-	text-align: center;
 	margin: 1em 0;
+	text-align: center;
 }
 
 [epub|type~="z3998:poem"] p,
@@ -84,8 +84,8 @@ body [xml|lang]{
 }
 
 [epub|type~="z3998:drama"] td{
-	vertical-align: top;
 	padding: .5em;
+	vertical-align: top;
 }
 
 [epub|type~="z3998:drama"] td:last-child{
@@ -123,9 +123,9 @@ body [xml|lang]{
 }
 
 [epub|type~="epigraph"] cite{
-	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
+	margin-top: 1em;
 }
 
 [epub|type~="epigraph"] cite i{
