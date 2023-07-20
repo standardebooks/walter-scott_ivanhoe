@@ -77,7 +77,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/82</dc:source>
 		<dc:source>https://books.google.com/books?id=ziUCAAAAQAAJ</dc:source>
-		<meta property="se:word-count">185735</meta>
+		<meta property="se:word-count">185734</meta>
 		<meta property="se:reading-ease.flesch">60.69</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Ivanhoe</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/walter-scott_ivanhoe</meta>
