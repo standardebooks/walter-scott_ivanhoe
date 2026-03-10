@@ -2,9 +2,11 @@
 <se-lint-ignore>
 	<file path="chapter-35.xhtml">
 		<ignore code="c-017">
+			<line>74</line>
 			<reason>Postscript is part of prose and does not require special styling.</reason>
 		</ignore>
 		<ignore code="c-018">
+			<line>74</line>
 			<reason>Postscript is part of prose and does not require special styling.</reason>
 		</ignore>
 	</file>
