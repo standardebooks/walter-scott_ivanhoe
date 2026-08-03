@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/walter-scott/ivanhoe</dc:identifier>
 		<dc:date>2018-04-30T02:01:19Z</dc:date>
@@ -69,13 +69,13 @@
 		<meta id="collection-1" property="belongs-to-collection">Waverley</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">10</meta>
-		<dc:description id="description">A disinherited knight returns from the Crusades and fights back against Prince John’s reign.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A disinherited knight returns from the Crusades and fights back against Prince John’s reign.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;Set in 12th-century England, Prince John rules while his brother King Richard is away during the Crusades. During his reign, Prince John and others of Norman nobility abuse their power over the Saxons, forcing Saxons off their lands and many Saxon nobles into serfdom.&lt;/p&gt;
 			&lt;p&gt;Ivanhoe, a man disowned by his own Saxon father for going to war alongside the Norman King Richard, returns from the Crusades in disguise and appears in a tournament at Ashby. After revealing himself, Prince John and his advisors learn that King Richard, too, has returned from the crusades.&lt;/p&gt;
 			&lt;p&gt;Foiling Prince John’s plot against King Richard’s return to power, King Richard battles against Prince John’s allies, and executes the most guilty of his conspirators. After the events of the story, Ivanhoe leads a heroic career under King Richard until the king’s untimely death.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;Ivanhoe&lt;/i&gt; is the first novel to feature the character Robin Hood, his merry men, and Friar Tuck, and serves as the basis for the portrayals of his character we still see in many modern adaptations.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/82</dc:source>
 		<dc:source>https://books.google.com/books?id=ziUCAAAAQAAJ</dc:source>
