@@ -95,6 +95,7 @@
 		<meta property="role" refines="#author" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">Eugène Delacroix</dc:contributor>
 		<meta property="file-as" refines="#artist">Delacroix, Eugène</meta>
+		<meta property="schema:alternateName" refines="#artist">Ferdinand Victor Eugène Delacroix</meta>
 		<link href="https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix" refines="#artist" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79086855.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
@@ -104,6 +105,7 @@
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
 		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-2" rel="schema:sameAs"/>
+		<link href="https://www.gutenberg.net.au/widger/home.html" refines="#transcriber-2" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Kenneth Williams</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Williams, Kenneth</meta>
